@@ -95,6 +95,7 @@ body {
     text-transform: none;
     font-size: 0.7rem;
     right: -100px;
+    top: -10px;
 }
 
 .section:nth-of-type(2) .section__title::after {
@@ -104,6 +105,7 @@ body {
     text-transform: none;
     font-size: 0.7rem;
     right: -100px;
+    top: -10px;
 }
 
 .section:nth-of-type(3) .section__title::after {
@@ -113,6 +115,7 @@ body {
     text-transform: none;
     font-size: 0.7rem;
     right: -100px;
+    top: -10px;
 }
 
 .section:nth-of-type(4) .section__title::after {
@@ -122,4 +125,5 @@ body {
     text-transform: none;
     font-size: 0.7rem;
     right: -100px;
+    top: -10px;
 }
