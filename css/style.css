@@ -74,9 +74,9 @@ body {
 .main::after {
     content: url(../assets/imgs/bg-picture.png);
     z-index: -1;
-    position: absolute;
-    top: 0;
-    right: -100px;
+    position: fixed;
+    top: 200px;
+    right: 360px;
 }
 
 .sidebar {
