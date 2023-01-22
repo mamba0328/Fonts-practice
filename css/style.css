@@ -18,6 +18,7 @@ body {
 }
 
 .header {
+    position: fixed;
     margin-bottom: 70px;
     display: flex;
     justify-content: space-between;
@@ -27,6 +28,7 @@ body {
     width: 100%;
     z-index: 1;
     background-color: rgb(255, 255, 255);
+    top: 0;
 }
 
 .nav {
@@ -57,6 +59,7 @@ body {
     max-width: var(--container-width);
     width: 100%;
     margin: 0 auto;
+    padding-top: 100px;
 }
 
 .main {
@@ -65,9 +68,8 @@ body {
     grid-template-columns: minmax(385px, 1fr) minmax(785px, 2fr);
     gap: 30px;
     position: relative;
+    padding-top: 85px;
 }
-
-
 
 .main::after {
     content: url(../assets/imgs/bg-picture.png);
@@ -75,6 +77,13 @@ body {
     position: absolute;
     top: 0;
     right: -100px;
+}
+
+.sidebar {
+    position: sticky;
+    top: 100px;
+    left: 0;
+    height: max-content;
 }
 
 .article-nav__list {
